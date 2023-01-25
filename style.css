@@ -1,0 +1,44 @@
+body {
+  font-family: Tahoma;
+  background: rgb(63,113,144);
+  background: linear-gradient(0deg, rgba(63,113,144,1) 0%, rgba(177,215,215,1) 100%);
+  background-attachment:fixed;
+}
+
+.text-large {
+  font-size: 3.6em;
+}
+
+.text-medium {
+  font-size: 3.0em;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clothes-icon {
+  width: 13vw;
+  border: 3px solid #000;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.weather-icon-medium {
+  width: 6vw;
+  padding-right: 10px;
+}
