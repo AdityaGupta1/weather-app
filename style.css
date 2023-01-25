@@ -2,15 +2,15 @@ body {
   font-family: Tahoma;
   background: rgb(63,113,144);
   background: linear-gradient(0deg, rgba(63,113,144,1) 0%, rgba(177,215,215,1) 100%);
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 
 .text-large {
-  font-size: 3.6em;
+  font-size: 3.2vh;
 }
 
 .text-medium {
-  font-size: 3.0em;
+  font-size: 2.4vh;
 }
 
 .column {
@@ -19,7 +19,6 @@ body {
   text-align: center;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -32,13 +31,28 @@ body {
 }
 
 .clothes-icon {
-  width: 13vw;
+  width: 12vw;
   border: 3px solid #000;
   margin-right: 3px;
   margin-left: 3px;
 }
 
 .weather-icon-medium {
-  width: 6vw;
+  width: 7vw;
   padding-right: 10px;
+}
+
+.weather-icon-small {
+  width: 5vw;
+}
+
+#future-forecast-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#future-forecast-table td {
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
