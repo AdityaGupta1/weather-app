@@ -7,16 +7,27 @@ body {
 
 .text-large {
   font-size: 3.2vh;
+  display: inline-block;
 }
 
 .text-medium {
   font-size: 2.4vh;
+  display: inline-block;
+}
+
+.text-small {
+  font-size: 2.0vh;
+  display: inline-block;
 }
 
 .column {
   float: left;
   width: 50%;
   text-align: center;
+}
+
+.thirds {
+  width: 33vw;
 }
 
 .row:after {
@@ -55,4 +66,21 @@ body {
   padding-bottom: 7px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+#severe-weather-alert {
+  width: 43vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #F00;
+  background-color: #FFF;
+}
+
+.toggle-switch {
+  width: 13vw;
+}
+
+.toggle td {
+  padding-left: 8px;
+  padding-right: 8px;
 }
